@@ -59,4 +59,10 @@ public class HttpIdentityProviderRepository extends AbstractRepository implement
     public Set<IdentityProvider> findAllByOrganizationId(String organizationId) throws TechnicalException {
         throw new IllegalStateException();
     }
+
+    @Override
+    public Integer findMaxIdentityProviderOrganizationIdOrder(String organizationId) throws TechnicalException {
+        throw new IllegalStateException();
+
+    }
 }
